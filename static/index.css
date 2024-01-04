@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+/*Header section*/
+.nav{
+    background-color: bisque;
+    box-shadow: #ff9b06;
+    padding: 10px;
+    display: flex;
+}
+.logo{
+    color: #ff9b06;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-items{
+    font-size: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-style: italic;
+}
+.nav-items:hover{
+    color: darkorange;
+}
+.search{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #f1be32;
+    border-bottom: 10px;
+    border-top: 10px;
+    text-align: right;
+}
+.search input{
+    outline: none;
+    text-align: left;
+}
+/*end of header section*/
+
+/*burger section*/
+.burger{
+    display: flex;
+    background-color: rgb(255, 115, 0);
+}
+.burgerr{
+    height: 350px;
+    width: 800px;
+}
+.burger-text{
+    color: bisque;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+/*end of section*/
+
+/*coffee section*/
+.coffeee{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.coffee{
+    height: 420px;
+    width: 800px;
+}
+.coffee-text{
+    color: bisque;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+/*end of section*/
+/*services section*/
+.extra-info{
+    background: linear-gradient(to right, #f1be32 10%, rgb(240, 189, 22) 75%, rgb(248, 164, 7) 100%, #ff9b06 0%);
+    /*background-color: rgb(243, 191, 19);*/
+    text-align: justify;
+    justify-content: center;
+}
+.info{
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.img-info{
+    height: 120px;
+    width: 200px;
+    border-radius: 110%;
+    float: left;
+}
+/*end of service section*/
+
+/*footer section*/
+footer{
+    background-color: black;
+    color: beige;
+}
+.direct-links{
+    display: flex;
+    justify-content: center;
+}
+.destination{
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.sicons{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+.social-icon{
+    margin-top: 30px;  
+    font-size: 20px;
+    margin-left: 20px; 
+}
+/*-----------------------*/
