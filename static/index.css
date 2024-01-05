@@ -79,11 +79,53 @@
     font-size: 20px;
     font-style: italic;
 }
+/*pizza section*/
+.pizza{
+    display: flex;
+    background: linear-gradient(to left, #fcde33 10%, rgb(247, 191, 9) 75%, rgb(245, 205, 29) 100%, #ebe0af 50%);
+}
+.pizzaa{
+    height: 380px;
+    width: 700px;
+    margin-left: 300px;
+}
+.pizza-text{
+    color: rgb(141, 112, 79);
+    margin-top: 90px;
+    text-align: center;
+    margin-left: -890px;
+    font-size: 20px;
+    font-style: italic;
+}
 /*end of section*/
+
+/*pizza menu*/
+.menu{
+background-color: bisque;
+justify-content: center;
+}
+.card {
+    background-color: #e2bd18;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .pizza-image {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+/*end of section*/
+
 /*services section*/
 .extra-info{
     background: linear-gradient(to right, #f1be32 10%, rgb(240, 189, 22) 75%, rgb(248, 164, 7) 100%, #ff9b06 0%);
-    /*background-color: rgb(243, 191, 19);*/
+    /*background-color: rgb(12, 12, 12);*/
     text-align: justify;
     justify-content: center;
 }
